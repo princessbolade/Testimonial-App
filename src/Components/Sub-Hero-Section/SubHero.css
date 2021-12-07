@@ -1,0 +1,49 @@
+.sub__hero__section {
+  background-color: #222222;
+  color: #ffff;
+}
+
+.sub__hero__section__2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.sub__hero__section__img {
+  width: 480px;
+  height: 480px;
+  margin-top: 70px;
+}
+
+.sub__section {
+  margin-left: 130px;
+}
+
+.sub__hero__section__header {
+  font-size: 25px;
+  font-weight: 700px;
+  line-height: 20px;
+}
+
+.sub__hero__section__paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.btn__sub {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-top: 30px;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.2em;
+}
+
+.btn__sub:hover {
+  transition: all ease-out 3s;
+}
