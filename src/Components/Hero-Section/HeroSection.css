@@ -1,0 +1,27 @@
+.hero__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.hero__section__header {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+.hero__section__paragraph {
+  font-size: 16px;
+  line-height: 29px;
+  color: #494949;
+  font-family: "Inter", sans-serif;
+}
+
+.hero__section__img {
+  width: 480px;
+  height: 480px;
+}
