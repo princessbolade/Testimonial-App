@@ -1,12 +1,14 @@
 .testimonial__container {
   padding-top: 50px;
   padding-left: 30px;
+  width: 30%;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
@@ -36,7 +38,7 @@
 }
 
 .testimonial__paragraph {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.02em;
 }

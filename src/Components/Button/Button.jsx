@@ -5,7 +5,7 @@ const btn__sizes = ["btn--btn"];
 const btn__styles = [
   "btn--primary",
   "btn--secondary",
-  "btn--tetiary",
+  "btn--success",
   "btn--orange",
   "btn--plain",
 ];
