@@ -1,29 +1,22 @@
 import React from "react";
 import Button from "../Button/Button";
-import "./SubHero.css";
+import "./SubHeroJ.css";
 
-function SubHero() {
+function SubHeroJ() {
   return (
     <>
-      <div className="sub__hero__section">
-        <div className="sub__hero__section__2">
-          <img
-            src="../../subHero.svg"
-            alt=""
-            className="sub__hero__section__img"
-          />
-          <div className="sub__section">
-            <h1 className="sub__hero__section__header">
-              Tolu & Joy’s Experience
-            </h1>
+      <div className="sub__heroJ__section">
+        <div className="sub__heroJ__section__2">
+          <div className="subJ__section">
+            <h1 className="sub__heroJ__section__header">Josiah’s Experience</h1>
             <Button
               className="btn"
               buttonSizes="btn--btn"
-              buttonStyles="btn--plain"
+              buttonStyles="btn--orange"
             >
-              Customer
+              Vendor
             </Button>
-            <p className="sub__hero__section__paragraph">
+            <p className="sub__heroJ__section__paragraph">
               I had the best experience shopping with vasiti. Usability of the
               website was great, very good customer service, an all round great
               experience. I would definately be coming back! I had the best
@@ -31,14 +24,20 @@ function SubHero() {
               great, very good customer service, an all round great experience.
               I would definately be coming back!
             </p>
-            <button className="btn__sub" buttonSizes="btn-btn">
-              <img src="../../shareStory.svg" alt="" />
+
+            <button className="btn__subJ">
+              <img src="../../shareStory2.svg" alt="" />
             </button>
           </div>
+          <img
+            src="../../subHeroJ.svg"
+            alt=""
+            className="sub__heroJ__section__img"
+          />
         </div>
       </div>
     </>
   );
 }
 
-export default SubHero;
+export default SubHeroJ;

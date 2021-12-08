@@ -1,0 +1,46 @@
+.sub__heroJ__section {
+  background-color: #fff8f5;
+  color: #242120;
+}
+
+.sub__heroJ__section__2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.subJ__section {
+  margin-right: 130px;
+}
+
+.sub__heroJ__section__header {
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 20px;
+}
+
+.sub__heroJ__section__paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.sub__heroJ__section__img {
+  width: 480px;
+  height: 480px;
+  margin-top: 50px;
+}
+
+.btn__subJ {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-top: 30px;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.2em;
+  color: #ff5c00;
+}
