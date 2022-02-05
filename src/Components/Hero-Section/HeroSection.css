@@ -25,3 +25,9 @@
   width: 480px;
   height: 480px;
 }
+
+@media screen and (maxwidth: "800px") {
+  .hero__section {
+    display: block;
+  }
+}
